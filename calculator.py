@@ -12,6 +12,10 @@ def divide(x, y):
         return "Error! Division by zero."
     return x / y
 
+def modulus(x, y):
+    if y != 0:
+        return x % y
+
 def calculator():
     while True:
         print("\nSimple Calculator")
